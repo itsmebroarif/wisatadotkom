@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Wisata.com</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li><a href="destination.html">Destinasi</a></li>
+        <li><a href="about.html">Tentang Kami</a></li>
+        <li>
+          <a href="contact.html"><u>Kontak</u></a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Header -->
+    <header class="destination-header">
+      <h1>Hubungi Kami</h1>
+      <p>Silahkan berikan masukan dan pesan mengenai situs kami.</p>
+    </header>
+
+    <!-- Primary Content -->
+    <main>
+      <section id="contact">
+        <h2>Kontak Kami</h2>
+        <form method="post">
+          <!-- Input Nama -->
+          <div class="form-group">
+            <label for="name">Nama:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Masukkan nama Anda"
+              required
+            />
+          </div>
+
+          <!-- Input Email -->
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Masukkan email Anda"
+              required
+            />
+          </div>
+
+          <!-- Input Pesan -->
+          <div class="form-group">
+            <label for="message">Pesan:</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              placeholder="Tuliskan pesan Anda di sini"
+              required
+            ></textarea>
+          </div>
+
+          <!-- Tombol Kirim -->
+          <div class="form-group">
+            <button type="submit">Kirim</button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>
+        &copy; 2024 Wisata.com. Created By Arif Permana Putrasuryana, All Rights
+        Reserved.
+      </p>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
